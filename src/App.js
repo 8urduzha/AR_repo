@@ -15,13 +15,13 @@ function App() {
 
             <img className="App-ar-image" src={ar}/>
         </div>
-      <img className="App-image-style" src={"./custom/preview_image.png"}/>
+      <img className="App-image-style" src={"./custom/AR_preview.png"}/>
     </div>
   );
 }
 
 function onClick(){
-    // window.open("./custom/model.usdz")
+
     if(isMobile.any()){
         if(isMobile.iOS()){
             window.open("./custom/model.usdz")
